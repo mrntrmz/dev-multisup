@@ -1,0 +1,23 @@
+/** 
+* Déclaration de la grille
+**/
+.wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+}
+.column {
+  box-sizing: border-box;
+  float: left;
+  padding-left: .5em;
+  padding-right: .5em;
+  outline: 1px solid green;
+}
+/** 1/12 = 8.3334%**/
+.column-3-12 { width: 25%; }
+.column-4-12 { width: 33.33%; }
+.column-8-12 { width: 66.66%; }
+
+/** Utilitaire **/
+.clear {clear: both;}
